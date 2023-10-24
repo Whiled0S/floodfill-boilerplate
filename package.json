@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "esbuild ./src/index.ts --bundle --watch --outfile=./public/bundle.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.19.5"
+  }
+}
